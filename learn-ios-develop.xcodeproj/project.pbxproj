@@ -8,10 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		B65C52CD290C2011008F5368 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B65C52CC290C2011008F5368 /* main.m */; };
+		B65C52DA290C2273008F5368 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B65C52D9290C2273008F5368 /* main.m */; };
+		B65C52E0290C22A2008F5368 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = B65C52DF290C22A2008F5368 /* Student.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		B65C52C7290C2011008F5368 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		B65C52D5290C2273008F5368 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,10 +36,21 @@
 /* Begin PBXFileReference section */
 		B65C52C9290C2011008F5368 /* learn-ios-develop */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "learn-ios-develop"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B65C52CC290C2011008F5368 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B65C52D7290C2273008F5368 /* oc-class-example */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "oc-class-example"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B65C52D9290C2273008F5368 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B65C52DE290C22A2008F5368 /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		B65C52DF290C22A2008F5368 /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B65C52C6290C2011008F5368 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B65C52D4290C2273008F5368 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				B65C52CB290C2011008F5368 /* learn-ios-develop */,
+				B65C52D8290C2273008F5368 /* oc-class-example */,
 				B65C52CA290C2011008F5368 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				B65C52C9290C2011008F5368 /* learn-ios-develop */,
+				B65C52D7290C2273008F5368 /* oc-class-example */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +84,16 @@
 				B65C52CC290C2011008F5368 /* main.m */,
 			);
 			path = "learn-ios-develop";
+			sourceTree = "<group>";
+		};
+		B65C52D8290C2273008F5368 /* oc-class-example */ = {
+			isa = PBXGroup;
+			children = (
+				B65C52D9290C2273008F5368 /* main.m */,
+				B65C52DE290C22A2008F5368 /* Student.h */,
+				B65C52DF290C22A2008F5368 /* Student.m */,
+			);
+			path = "oc-class-example";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +116,23 @@
 			productReference = B65C52C9290C2011008F5368 /* learn-ios-develop */;
 			productType = "com.apple.product-type.tool";
 		};
+		B65C52D6290C2273008F5368 /* oc-class-example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B65C52DD290C2273008F5368 /* Build configuration list for PBXNativeTarget "oc-class-example" */;
+			buildPhases = (
+				B65C52D3290C2273008F5368 /* Sources */,
+				B65C52D4290C2273008F5368 /* Frameworks */,
+				B65C52D5290C2273008F5368 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "oc-class-example";
+			productName = "oc-class-example";
+			productReference = B65C52D7290C2273008F5368 /* oc-class-example */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -92,6 +143,9 @@
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
 					B65C52C8290C2011008F5368 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					B65C52D6290C2273008F5368 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
@@ -110,6 +164,7 @@
 			projectRoot = "";
 			targets = (
 				B65C52C8290C2011008F5368 /* learn-ios-develop */,
+				B65C52D6290C2273008F5368 /* oc-class-example */,
 			);
 		};
 /* End PBXProject section */
@@ -120,6 +175,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				B65C52CD290C2011008F5368 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B65C52D3290C2273008F5368 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B65C52DA290C2273008F5368 /* main.m in Sources */,
+				B65C52E0290C22A2008F5368 /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +319,26 @@
 			};
 			name = Release;
 		};
+		B65C52DB290C2273008F5368 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S74ZA39WT5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B65C52DC290C2273008F5368 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S74ZA39WT5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -272,6 +356,15 @@
 			buildConfigurations = (
 				B65C52D1290C2011008F5368 /* Debug */,
 				B65C52D2290C2011008F5368 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B65C52DD290C2273008F5368 /* Build configuration list for PBXNativeTarget "oc-class-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B65C52DB290C2273008F5368 /* Debug */,
+				B65C52DC290C2273008F5368 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
