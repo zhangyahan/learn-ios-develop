@@ -10,13 +10,13 @@
 @implementation Student
 
 - (instancetype) initWithName:(NSString *)name andAge:(int)age andClassroom:(NSString *)classroom {
-    self->name = name;
-    self->age=age;
-    self->classroom = classroom;
+    self->_name = name;
+    self->_age=age;
+    self->_classroom = classroom;
     return self;
 }
 
 - (NSString *) description {
-    return [NSString stringWithFormat:@"name: %@, age: %d, classroom: %@", self->name, self->age, self->classroom];
+    return [NSString stringWithFormat:@"name: %@, age: %d, classroom: %@", self->_name, self->_age, self->_classroom];
 }
 @end

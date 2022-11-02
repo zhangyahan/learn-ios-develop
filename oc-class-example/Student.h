@@ -18,15 +18,15 @@ NS_ASSUME_NONNULL_BEGIN
     /**
      * 学生姓名属性
      */
-    NSString *name;
+    @public NSString *_name;
     /**
      * 学生年龄属性
      */
-    int age;
+    @public int _age;
     /**
      * 学生班级属性
      */
-    NSString *classroom;
+    @public NSString *_classroom;
 }
 
 /**
