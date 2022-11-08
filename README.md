@@ -108,6 +108,37 @@ int main {
 }
 ```
 
+### 快捷初始化对象
+
+在初始化对象时应该存在封装的思想，在不能一直一遍一遍的 new 和在外部设置属性值。
+
+```objective-c
+// .h
+@interface Student
+@property(nonatomic, copy) NSString *name;
+
+// 对象方法
+- (instancetype) initWith: (NSString *) name;
+// 本类方法
++ (instancetype) studentWith: (NSString *) name;
+@end
+    
+// .m
+@implementation Student
+- (instancetype) initWith: (NSString *) name {
+    if (self = [super init]) {
+        self.name = name;
+    }
+    return self;
+}
++ (instancetype) studentWith: (NSString *) name {
+    return [[self alloc] initWith: name];
+}
+@end
+```
+
+
+
 ### 多个指针指向相同的对象
 
 在OC中，多个指针可以指向相同的对象，这样这几个指针所引用的值就来自同一块内存块，在其中一个指针改变其值的时候，其他指针指向的值也会进行改变；这个不会作用在基础数据类型之上，因为基础类型的值就是地址，要是改变其变量地址的话，在做修改并不会应该到之前指向的值；
@@ -474,6 +505,101 @@ int main() {
 ### 常用类的介绍
 
 ## UIKit
+
+### 动画
+
+在 `UIKit` 框架中，移动控件的位置或者修改控件的大小时可以开启动画效果。
+
+```objective-c
+@implementation ViewControll
+- (void) viewDidLoad {
+    [super viewDidLoad];
+    
+    // 1. 开启动画
+    [UIView beginANimations: nil context: nil];
+    
+    // 2. 设置动画的时长
+    [UIView setAnimationDuration: 2];
+    
+    // 3. 修改控件的大小和位置
+    // ...
+    
+    // 4. 提交动画
+    [UIView commitAnimations];
+}
+@end
+```
+
+### UIImageView 图片列表动画
+
+在 `UIImageView` 中可以为 `animationImages` 属性设置多个图片资源并为其开启动画，关键API如下：
+
+- `@property(nonatomic, copy) NSArray * animationImages;`
+- `@property(nonatomic) NSTimeInterval animationDuration;`
+- `@property(nonatomic) NSInteger animationRepeatCount;`
+- `- (void) startAnimating;`
+- `- (void) stopAnimating;`
+- `- (BOOL) isAnimating;`
+- `- (void) preformSelector: @selector() withObject:NSObject afterDelay: number;`
+
+### 关于加载图片后的内存占用问题
+
+使用 `[UIImage imageNamed: @""]` 方法加载的图片资源会在内存中进行缓存，如果在使用到大量的图片时。不希望过多的占用内存而导致的异常，请使用 `[UIImage imageWithContentsOfFile: @""]` 方法加载图片资源，该图片资源会在失去引用时自动清除在内存中的残留，并且在图片使用完毕后延迟将指针变量引用为 `nil`。
+
+### 加载 `*.plist` 文件内容的方法
+
+使用 `[NSBundle mainBundle] pathForResource:@"" ofType: @""` 读取根路径下的文件路径，然后使用 `NSObject *WithContentsOfFile: @""` 方法将文件内容读取到对象中去。
+
+```objective-c
+NSString *path = [[NSBundle mainBundle] pathForResource:@"<文件名称>" ofType:@"<文件后缀>"];
+[NSArray arrayWithContentsOfFile:path]; // 将文件读取到数组中, 如果 .plist 文件中的数组类型为数组的话.
+```
+
+### 字典转模型
+
+将 `*.plist` 文件内的内容转换为 `NSObject` 对象类型，这样可以在使用和赋值当中避免取值错误而造成的运行时间的错误，在使用这种思想的时候请为你的模型对象设置便捷的初始化方法。
+
+```objective-c
+@implementation ViewController {
+    - (NSArray *) data {
+        if (_data == nil) {
+            // 使用数据对象懒加载数据
+            // 1. 获取 *.plist 的文件路径
+            NSString *path = [[NSBundle mainBundle] pathForResource:@"" ofType: nil];
+            
+            // 2. 读取文件中的内容
+            NSArray *content = [NSArray arrayWithContentsOfFile: path];
+            
+            // 3. 生成一个可变长数组存储数据
+            NSMutableArray *models = [NSMutableArray array];
+            
+            for (NSDirectory *dict in content) {
+                ModelName *model = [[ModelName alloc] init];
+                model.field = dict[@"field"];
+                [models addObject: model];
+            }
+            _data = models;
+        }
+        return _data;
+    }
+}
+```
+
+### 封装 xib
+
+`xib` 其实和 `storyboard` 一样都是描述控件的文件，两者的区别的 `storyboard` 描述的是重量级的（比如承载着页面的跳转等操作），`xib` 描述的是轻量级的（比如只是展示一些信息或者是封装可复用组件等操作）。主要的目的还是为了减少在代码中动态创建控件的代码量。
+
+```objective-c
+// 加载 xib 文件
+NSArray *views = [[NSBundle mainBundle] loadNibNameed: @"xib文件名称" owner: nil options: nil];
+UIView *view = [views firstObject];
+```
+
+需要在 `xib` 文件中为各个控件设置 `tag` 并使用 `[UIView viewWithTag: number]` 获取子控件对象，
+
+
+
+
 
 
 
