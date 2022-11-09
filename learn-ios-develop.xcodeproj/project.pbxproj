@@ -323,25 +323,65 @@
 			path = "oc-class-example";
 			sourceTree = "<group>";
 		};
-		B6BE205B291A9F86003E2CD8 /* uikit-app-store-example */ = {
+		B69D6BB8291BE37B004337A7 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				B6BE207A291AA34F003E2CD8 /* AppStoreModel.h */,
+				B6BE207B291AA34F003E2CD8 /* AppStoreModel.m */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
+		B69D6BB9291BE3A0004337A7 /* views */ = {
 			isa = PBXGroup;
 			children = (
 				B6BE2075291AA024003E2CD8 /* AppStoreCell.xib */,
 				B6BE2077291AA06C003E2CD8 /* AppStoreCell.h */,
 				B6BE2078291AA06C003E2CD8 /* AppStoreCell.m */,
-				B6BE207A291AA34F003E2CD8 /* AppStoreModel.h */,
-				B6BE207B291AA34F003E2CD8 /* AppStoreModel.m */,
+				B6BE2065291A9F86003E2CD8 /* Main.storyboard */,
+				B6BE206A291A9F88003E2CD8 /* LaunchScreen.storyboard */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		B69D6BBA291BE3B4004337A7 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B6BE2062291A9F86003E2CD8 /* ViewController.h */,
+				B6BE2063291A9F86003E2CD8 /* ViewController.m */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		B69D6BBD291BE3EF004337A7 /* others */ = {
+			isa = PBXGroup;
+			children = (
 				B6BE205C291A9F86003E2CD8 /* AppDelegate.h */,
 				B6BE205D291A9F86003E2CD8 /* AppDelegate.m */,
 				B6BE205F291A9F86003E2CD8 /* SceneDelegate.h */,
 				B6BE2060291A9F86003E2CD8 /* SceneDelegate.m */,
-				B6BE2062291A9F86003E2CD8 /* ViewController.h */,
-				B6BE2063291A9F86003E2CD8 /* ViewController.m */,
-				B6BE2065291A9F86003E2CD8 /* Main.storyboard */,
+			);
+			name = others;
+			sourceTree = "<group>";
+		};
+		B69D6BBE291BE3FC004337A7 /* resources */ = {
+			isa = PBXGroup;
+			children = (
 				B6BE2068291A9F88003E2CD8 /* Assets.xcassets */,
-				B6BE206A291A9F88003E2CD8 /* LaunchScreen.storyboard */,
 				B6BE206D291A9F88003E2CD8 /* Info.plist */,
 				B6BE207D291AA414003E2CD8 /* appstore.plist */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+		B6BE205B291A9F86003E2CD8 /* uikit-app-store-example */ = {
+			isa = PBXGroup;
+			children = (
+				B69D6BB8291BE37B004337A7 /* models */,
+				B69D6BB9291BE3A0004337A7 /* views */,
+				B69D6BBA291BE3B4004337A7 /* controllers */,
+				B69D6BBD291BE3EF004337A7 /* others */,
+				B69D6BBE291BE3FC004337A7 /* resources */,
 				B6BE206E291A9F88003E2CD8 /* main.m */,
 			);
 			path = "uikit-app-store-example";

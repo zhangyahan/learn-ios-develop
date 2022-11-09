@@ -15,6 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (weak, nonatomic) IBOutlet UILabel *label;
 @property (weak, nonatomic) IBOutlet UIButton *button;
 
+- (IBAction)onDownloadButtonClick:(UIButton *)sender;
 
 // 封装初始化的方法
 + (instancetype) appStoreCell;

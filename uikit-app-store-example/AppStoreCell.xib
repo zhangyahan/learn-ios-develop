@@ -25,15 +25,18 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Am7-by-OqU">
-                    <rect key="frame" x="12" y="66" width="50" height="20"/>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Am7-by-OqU">
+                    <rect key="frame" x="15" y="66" width="50" height="20"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <state key="normal" title="Button"/>
-                    <buttonConfiguration key="configuration" style="plain" title="下载">
-                        <backgroundConfiguration key="background" image="bg_download_btn"/>
-                        <fontDescription key="titleFontDescription" type="system" pointSize="12"/>
-                        <color key="baseForegroundColor" systemColor="secondarySystemGroupedBackgroundColor"/>
-                    </buttonConfiguration>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="下载" backgroundImage="bg_download_btn">
+                        <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                    </state>
+                    <state key="disabled" title="已下载"/>
+                    <connections>
+                        <action selector="onDownloadButtonClick:" destination="BGu-I0-WgV" eventType="touchUpInside" id="Y3O-Ey-3XF"/>
+                    </connections>
                 </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="299-Qz-l7e"/>
