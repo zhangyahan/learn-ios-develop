@@ -51,7 +51,7 @@
     for (int i = 0; i < self.appStores.count; i++) {
         AppStoreModel *model = self.appStores[i];
         
-        AppStoreCell *cell = [[[NSBundle mainBundle] loadNibNamed:@"AppStoreCell" owner:nil options:nil] lastObject];
+        AppStoreCell *cell = [AppStoreCell appStoreCell];
         
         int col = i % colums;
         int row = i / colums;
@@ -67,9 +67,7 @@
         
         [self.view addSubview:cell];
         
-        cell.imageView.image = [UIImage imageNamed:model.icon];
-        cell.label.text = model.label;
-        NSLog(@"%@, frame (x: %f, y: %f, w: %f, f: %f)", model.label, appStoreCellX, appStoreCellY, appStoreCellWidth, appStoreCellHeight);
+        [cell setModel:model];
     }
 }
 

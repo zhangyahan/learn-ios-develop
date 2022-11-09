@@ -6,6 +6,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AppStoreModel.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -14,6 +15,10 @@ NS_ASSUME_NONNULL_BEGIN
 @property (weak, nonatomic) IBOutlet UILabel *label;
 @property (weak, nonatomic) IBOutlet UIButton *button;
 
+
+// 封装初始化的方法
++ (instancetype) appStoreCell;
+- (void) setModel: (AppStoreModel *) model;
 @end
 
 NS_ASSUME_NONNULL_END
