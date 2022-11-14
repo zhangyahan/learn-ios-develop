@@ -597,15 +597,10 @@ UIView *view = [views firstObject];
 
 需要在 `xib` 文件中为各个控件设置 `tag` 并使用 `[UIView viewWithTag: number]` 获取子控件对象，
 
+## Xcode 使用指南
 
+### 快捷键
 
-
-
-
-
-
-
-
-
-
+1. 代码格式化 `control + i` 如果希望全文件格式话则先全选文件内容
+2. 快捷注释 `option + command + /`
 

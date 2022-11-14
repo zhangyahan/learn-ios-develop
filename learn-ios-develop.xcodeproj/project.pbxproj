@@ -37,6 +37,13 @@
 		B69D6BD2291E7D3A004337A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B69D6BD1291E7D3A004337A7 /* Assets.xcassets */; };
 		B69D6BD5291E7D3A004337A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B69D6BD3291E7D3A004337A7 /* LaunchScreen.storyboard */; };
 		B69D6BD8291E7D3A004337A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B69D6BD7291E7D3A004337A7 /* main.m */; };
+		B6A3FE89291E8A6D00991409 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A3FE88291E8A6D00991409 /* AppDelegate.m */; };
+		B6A3FE8C291E8A6D00991409 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A3FE8B291E8A6D00991409 /* SceneDelegate.m */; };
+		B6A3FE8F291E8A6D00991409 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A3FE8E291E8A6D00991409 /* ViewController.m */; };
+		B6A3FE92291E8A6D00991409 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6A3FE90291E8A6D00991409 /* Main.storyboard */; };
+		B6A3FE94291E8A6E00991409 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6A3FE93291E8A6E00991409 /* Assets.xcassets */; };
+		B6A3FE97291E8A6E00991409 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6A3FE95291E8A6E00991409 /* LaunchScreen.storyboard */; };
+		B6A3FE9A291E8A6E00991409 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A3FE99291E8A6E00991409 /* main.m */; };
 		B6BE205E291A9F86003E2CD8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BE205D291A9F86003E2CD8 /* AppDelegate.m */; };
 		B6BE2061291A9F86003E2CD8 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BE2060291A9F86003E2CD8 /* SceneDelegate.m */; };
 		B6BE2064291A9F86003E2CD8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BE2063291A9F86003E2CD8 /* ViewController.m */; };
@@ -48,6 +55,13 @@
 		B6BE2079291AA06C003E2CD8 /* AppStoreCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BE2078291AA06C003E2CD8 /* AppStoreCell.m */; };
 		B6BE207C291AA34F003E2CD8 /* AppStoreModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BE207B291AA34F003E2CD8 /* AppStoreModel.m */; };
 		B6BE207E291AA414003E2CD8 /* appstore.plist in Resources */ = {isa = PBXBuildFile; fileRef = B6BE207D291AA414003E2CD8 /* appstore.plist */; };
+		B6E2C3C629226F9300F266F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E2C3C529226F9300F266F1 /* AppDelegate.m */; };
+		B6E2C3C929226F9300F266F1 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E2C3C829226F9300F266F1 /* SceneDelegate.m */; };
+		B6E2C3CC29226F9300F266F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E2C3CB29226F9300F266F1 /* ViewController.m */; };
+		B6E2C3CF29226F9300F266F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6E2C3CD29226F9300F266F1 /* Main.storyboard */; };
+		B6E2C3D129226F9500F266F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6E2C3D029226F9500F266F1 /* Assets.xcassets */; };
+		B6E2C3D429226F9500F266F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6E2C3D229226F9500F266F1 /* LaunchScreen.storyboard */; };
+		B6E2C3D729226F9500F266F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E2C3D629226F9500F266F1 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -150,6 +164,18 @@
 		B69D6BD4291E7D3A004337A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B69D6BD6291E7D3A004337A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B69D6BD7291E7D3A004337A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6A3FE85291E8A6C00991409 /* uikit-super-guess-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "uikit-super-guess-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6A3FE87291E8A6D00991409 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B6A3FE88291E8A6D00991409 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B6A3FE8A291E8A6D00991409 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		B6A3FE8B291E8A6D00991409 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		B6A3FE8D291E8A6D00991409 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B6A3FE8E291E8A6D00991409 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B6A3FE91291E8A6D00991409 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6A3FE93291E8A6E00991409 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6A3FE96291E8A6E00991409 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6A3FE98291E8A6E00991409 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6A3FE99291E8A6E00991409 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B6BE205A291A9F86003E2CD8 /* uikit-app-store-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "uikit-app-store-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6BE205C291A9F86003E2CD8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B6BE205D291A9F86003E2CD8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -168,6 +194,18 @@
 		B6BE207A291AA34F003E2CD8 /* AppStoreModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppStoreModel.h; sourceTree = "<group>"; };
 		B6BE207B291AA34F003E2CD8 /* AppStoreModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppStoreModel.m; sourceTree = "<group>"; };
 		B6BE207D291AA414003E2CD8 /* appstore.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = appstore.plist; sourceTree = "<group>"; };
+		B6E2C3C229226F9300F266F1 /* uikit-network-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "uikit-network-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6E2C3C429226F9300F266F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B6E2C3C529226F9300F266F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B6E2C3C729226F9300F266F1 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		B6E2C3C829226F9300F266F1 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		B6E2C3CA29226F9300F266F1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B6E2C3CB29226F9300F266F1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B6E2C3CE29226F9300F266F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6E2C3D029226F9500F266F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6E2C3D329226F9500F266F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6E2C3D529226F9500F266F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6E2C3D629226F9500F266F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -227,7 +265,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B6A3FE82291E8A6C00991409 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B6BE2057291A9F86003E2CD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6E2C3BF29226F9300F266F1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -313,6 +365,8 @@
 				B63BD1F429179E85005D62F0 /* uikit-picture-browser-example */,
 				B6BE205B291A9F86003E2CD8 /* uikit-app-store-example */,
 				B69D6BC4291E7D38004337A7 /* uikit-alert-example */,
+				B6A3FE86291E8A6C00991409 /* uikit-super-guess-example */,
+				B6E2C3C329226F9300F266F1 /* uikit-network-example */,
 				B65C52CA290C2011008F5368 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -329,6 +383,8 @@
 				B63BD1F329179E85005D62F0 /* uikit-picture-browser-example.app */,
 				B6BE205A291A9F86003E2CD8 /* uikit-app-store-example.app */,
 				B69D6BC3291E7D38004337A7 /* uikit-alert-example.app */,
+				B6A3FE85291E8A6C00991409 /* uikit-super-guess-example.app */,
+				B6E2C3C229226F9300F266F1 /* uikit-network-example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -420,6 +476,56 @@
 			path = "uikit-alert-example";
 			sourceTree = "<group>";
 		};
+		B6A3FE86291E8A6C00991409 /* uikit-super-guess-example */ = {
+			isa = PBXGroup;
+			children = (
+				B6A3FEA3291E8AC400991409 /* Resources */,
+				B6A3FEA2291E8A9F00991409 /* Models */,
+				B6A3FEA1291E8A9700991409 /* Views */,
+				B6A3FE9F291E8A8800991409 /* Controllers */,
+				B6A3FE99291E8A6E00991409 /* main.m */,
+			);
+			path = "uikit-super-guess-example";
+			sourceTree = "<group>";
+		};
+		B6A3FE9F291E8A8800991409 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B6A3FE8D291E8A6D00991409 /* ViewController.h */,
+				B6A3FE8E291E8A6D00991409 /* ViewController.m */,
+				B6A3FE8A291E8A6D00991409 /* SceneDelegate.h */,
+				B6A3FE8B291E8A6D00991409 /* SceneDelegate.m */,
+				B6A3FE87291E8A6D00991409 /* AppDelegate.h */,
+				B6A3FE88291E8A6D00991409 /* AppDelegate.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		B6A3FEA1291E8A9700991409 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B6A3FE90291E8A6D00991409 /* Main.storyboard */,
+				B6A3FE95291E8A6E00991409 /* LaunchScreen.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		B6A3FEA2291E8A9F00991409 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		B6A3FEA3291E8AC400991409 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B6A3FE93291E8A6E00991409 /* Assets.xcassets */,
+				B6A3FE98291E8A6E00991409 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		B6BE205B291A9F86003E2CD8 /* uikit-app-store-example */ = {
 			isa = PBXGroup;
 			children = (
@@ -431,6 +537,24 @@
 				B6BE206E291A9F88003E2CD8 /* main.m */,
 			);
 			path = "uikit-app-store-example";
+			sourceTree = "<group>";
+		};
+		B6E2C3C329226F9300F266F1 /* uikit-network-example */ = {
+			isa = PBXGroup;
+			children = (
+				B6E2C3C429226F9300F266F1 /* AppDelegate.h */,
+				B6E2C3C529226F9300F266F1 /* AppDelegate.m */,
+				B6E2C3C729226F9300F266F1 /* SceneDelegate.h */,
+				B6E2C3C829226F9300F266F1 /* SceneDelegate.m */,
+				B6E2C3CA29226F9300F266F1 /* ViewController.h */,
+				B6E2C3CB29226F9300F266F1 /* ViewController.m */,
+				B6E2C3CD29226F9300F266F1 /* Main.storyboard */,
+				B6E2C3D029226F9500F266F1 /* Assets.xcassets */,
+				B6E2C3D229226F9500F266F1 /* LaunchScreen.storyboard */,
+				B6E2C3D529226F9500F266F1 /* Info.plist */,
+				B6E2C3D629226F9500F266F1 /* main.m */,
+			);
+			path = "uikit-network-example";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -574,6 +698,23 @@
 			productReference = B69D6BC3291E7D38004337A7 /* uikit-alert-example.app */;
 			productType = "com.apple.product-type.application";
 		};
+		B6A3FE84291E8A6C00991409 /* uikit-super-guess-example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6A3FE9D291E8A6E00991409 /* Build configuration list for PBXNativeTarget "uikit-super-guess-example" */;
+			buildPhases = (
+				B6A3FE81291E8A6C00991409 /* Sources */,
+				B6A3FE82291E8A6C00991409 /* Frameworks */,
+				B6A3FE83291E8A6C00991409 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "uikit-super-guess-example";
+			productName = "uikit-super-guess-example";
+			productReference = B6A3FE85291E8A6C00991409 /* uikit-super-guess-example.app */;
+			productType = "com.apple.product-type.application";
+		};
 		B6BE2059291A9F86003E2CD8 /* uikit-app-store-example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B6BE2072291A9F88003E2CD8 /* Build configuration list for PBXNativeTarget "uikit-app-store-example" */;
@@ -589,6 +730,23 @@
 			name = "uikit-app-store-example";
 			productName = "uikit-app-store-example";
 			productReference = B6BE205A291A9F86003E2CD8 /* uikit-app-store-example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6E2C3C129226F9300F266F1 /* uikit-network-example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6E2C3D829226F9500F266F1 /* Build configuration list for PBXNativeTarget "uikit-network-example" */;
+			buildPhases = (
+				B6E2C3BE29226F9300F266F1 /* Sources */,
+				B6E2C3BF29226F9300F266F1 /* Frameworks */,
+				B6E2C3C029226F9300F266F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "uikit-network-example";
+			productName = "uikit-network-example";
+			productReference = B6E2C3C229226F9300F266F1 /* uikit-network-example.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -626,7 +784,13 @@
 					B69D6BC2291E7D38004337A7 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
+					B6A3FE84291E8A6C00991409 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
 					B6BE2059291A9F86003E2CD8 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					B6E2C3C129226F9300F266F1 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
@@ -653,6 +817,8 @@
 				B63BD1F229179E85005D62F0 /* uikit-picture-browser-example */,
 				B6BE2059291A9F86003E2CD8 /* uikit-app-store-example */,
 				B69D6BC2291E7D38004337A7 /* uikit-alert-example */,
+				B6A3FE84291E8A6C00991409 /* uikit-super-guess-example */,
+				B6E2C3C129226F9300F266F1 /* uikit-network-example */,
 			);
 		};
 /* End PBXProject section */
@@ -703,6 +869,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B6A3FE83291E8A6C00991409 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6A3FE97291E8A6E00991409 /* LaunchScreen.storyboard in Resources */,
+				B6A3FE94291E8A6E00991409 /* Assets.xcassets in Resources */,
+				B6A3FE92291E8A6D00991409 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B6BE2058291A9F86003E2CD8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -712,6 +888,16 @@
 				B6BE2067291A9F86003E2CD8 /* Main.storyboard in Resources */,
 				B6BE207E291AA414003E2CD8 /* appstore.plist in Resources */,
 				B6BE2076291AA024003E2CD8 /* AppStoreCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6E2C3C029226F9300F266F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6E2C3D429226F9500F266F1 /* LaunchScreen.storyboard in Resources */,
+				B6E2C3D129226F9500F266F1 /* Assets.xcassets in Resources */,
+				B6E2C3CF29226F9300F266F1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -794,6 +980,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B6A3FE81291E8A6C00991409 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6A3FE8F291E8A6D00991409 /* ViewController.m in Sources */,
+				B6A3FE89291E8A6D00991409 /* AppDelegate.m in Sources */,
+				B6A3FE9A291E8A6E00991409 /* main.m in Sources */,
+				B6A3FE8C291E8A6D00991409 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B6BE2056291A9F86003E2CD8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -804,6 +1001,17 @@
 				B6BE207C291AA34F003E2CD8 /* AppStoreModel.m in Sources */,
 				B6BE206F291A9F88003E2CD8 /* main.m in Sources */,
 				B6BE2061291A9F86003E2CD8 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6E2C3BE29226F9300F266F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6E2C3CC29226F9300F266F1 /* ViewController.m in Sources */,
+				B6E2C3C629226F9300F266F1 /* AppDelegate.m in Sources */,
+				B6E2C3D729226F9500F266F1 /* main.m in Sources */,
+				B6E2C3C929226F9300F266F1 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -871,6 +1079,22 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		B6A3FE90291E8A6D00991409 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6A3FE91291E8A6D00991409 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6A3FE95291E8A6E00991409 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6A3FE96291E8A6E00991409 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		B6BE2065291A9F86003E2CD8 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -883,6 +1107,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				B6BE206B291A9F88003E2CD8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B6E2C3CD29226F9300F266F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6E2C3CE29226F9300F266F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6E2C3D229226F9500F266F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6E2C3D329226F9500F266F1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -1314,6 +1554,65 @@
 			};
 			name = Release;
 		};
+		B6A3FE9B291E8A6E00991409 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S74ZA39WT5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "uikit-super-guess-example/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.org.aivstudio.uikit-super-guess-example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6A3FE9C291E8A6E00991409 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S74ZA39WT5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "uikit-super-guess-example/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.org.aivstudio.uikit-super-guess-example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		B6BE2070291A9F88003E2CD8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1365,6 +1664,65 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.org.aivstudio.uikit-app-store-example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6E2C3D929226F9500F266F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S74ZA39WT5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "uikit-network-example/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.org.aivstudio.uikit-network-example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6E2C3DA29226F9500F266F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S74ZA39WT5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "uikit-network-example/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.org.aivstudio.uikit-network-example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -1457,11 +1815,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		B6A3FE9D291E8A6E00991409 /* Build configuration list for PBXNativeTarget "uikit-super-guess-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6A3FE9B291E8A6E00991409 /* Debug */,
+				B6A3FE9C291E8A6E00991409 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B6BE2072291A9F88003E2CD8 /* Build configuration list for PBXNativeTarget "uikit-app-store-example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B6BE2070291A9F88003E2CD8 /* Debug */,
 				B6BE2071291A9F88003E2CD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6E2C3D829226F9500F266F1 /* Build configuration list for PBXNativeTarget "uikit-network-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6E2C3D929226F9500F266F1 /* Debug */,
+				B6E2C3DA29226F9500F266F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
