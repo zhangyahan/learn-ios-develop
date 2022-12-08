@@ -30,6 +30,13 @@
 		B65C52CD290C2011008F5368 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B65C52CC290C2011008F5368 /* main.m */; };
 		B65C52DA290C2273008F5368 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B65C52D9290C2273008F5368 /* main.m */; };
 		B65C52E0290C22A2008F5368 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = B65C52DF290C22A2008F5368 /* Student.m */; };
+		B67B23C4294216A40060351C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B67B23C3294216A40060351C /* AppDelegate.m */; };
+		B67B23C7294216A40060351C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B67B23C6294216A40060351C /* SceneDelegate.m */; };
+		B67B23CA294216A40060351C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B67B23C9294216A40060351C /* ViewController.m */; };
+		B67B23CD294216A40060351C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B67B23CB294216A40060351C /* Main.storyboard */; };
+		B67B23CF294216A60060351C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B67B23CE294216A60060351C /* Assets.xcassets */; };
+		B67B23D2294216A60060351C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B67B23D0294216A60060351C /* LaunchScreen.storyboard */; };
+		B67B23D5294216A60060351C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B67B23D4294216A60060351C /* main.m */; };
 		B69D6BC7291E7D38004337A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B69D6BC6291E7D38004337A7 /* AppDelegate.m */; };
 		B69D6BCA291E7D38004337A7 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B69D6BC9291E7D38004337A7 /* SceneDelegate.m */; };
 		B69D6BCD291E7D38004337A7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B69D6BCC291E7D38004337A7 /* ViewController.m */; };
@@ -159,6 +166,18 @@
 		B65C52D9290C2273008F5368 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B65C52DE290C22A2008F5368 /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
 		B65C52DF290C22A2008F5368 /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		B67B23C0294216A40060351C /* uikit-uiscrollview-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "uikit-uiscrollview-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B67B23C2294216A40060351C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B67B23C3294216A40060351C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B67B23C5294216A40060351C /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		B67B23C6294216A40060351C /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		B67B23C8294216A40060351C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B67B23C9294216A40060351C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B67B23CC294216A40060351C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B67B23CE294216A60060351C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B67B23D1294216A60060351C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B67B23D3294216A60060351C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B67B23D4294216A60060351C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B69D6BC3291E7D38004337A7 /* uikit-alert-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "uikit-alert-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B69D6BC5291E7D38004337A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B69D6BC6291E7D38004337A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -271,6 +290,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		B65C52D4290C2273008F5368 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B67B23BD294216A40060351C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -394,6 +420,7 @@
 				B6A3FE86291E8A6C00991409 /* uikit-super-guess-example */,
 				B6E2C3C329226F9300F266F1 /* uikit-network-example */,
 				B6DBEF7A292290A9002281CD /* uikit-webview-example */,
+				B67B23C1294216A40060351C /* uikit-uiscrollview-example */,
 				B65C52CA290C2011008F5368 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -413,6 +440,7 @@
 				B6A3FE85291E8A6C00991409 /* uikit-super-guess-example.app */,
 				B6E2C3C229226F9300F266F1 /* uikit-network-example.app */,
 				B6DBEF79292290A9002281CD /* uikit-webview-example.app */,
+				B67B23C0294216A40060351C /* uikit-uiscrollview-example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -433,6 +461,24 @@
 				B65C52DF290C22A2008F5368 /* Student.m */,
 			);
 			path = "oc-class-example";
+			sourceTree = "<group>";
+		};
+		B67B23C1294216A40060351C /* uikit-uiscrollview-example */ = {
+			isa = PBXGroup;
+			children = (
+				B67B23C2294216A40060351C /* AppDelegate.h */,
+				B67B23C3294216A40060351C /* AppDelegate.m */,
+				B67B23C5294216A40060351C /* SceneDelegate.h */,
+				B67B23C6294216A40060351C /* SceneDelegate.m */,
+				B67B23C8294216A40060351C /* ViewController.h */,
+				B67B23C9294216A40060351C /* ViewController.m */,
+				B67B23CB294216A40060351C /* Main.storyboard */,
+				B67B23CE294216A60060351C /* Assets.xcassets */,
+				B67B23D0294216A60060351C /* LaunchScreen.storyboard */,
+				B67B23D3294216A60060351C /* Info.plist */,
+				B67B23D4294216A60060351C /* main.m */,
+			);
+			path = "uikit-uiscrollview-example";
 			sourceTree = "<group>";
 		};
 		B69D6BB8291BE37B004337A7 /* models */ = {
@@ -727,6 +773,23 @@
 			productReference = B65C52D7290C2273008F5368 /* oc-class-example */;
 			productType = "com.apple.product-type.tool";
 		};
+		B67B23BF294216A40060351C /* uikit-uiscrollview-example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B67B23D8294216A60060351C /* Build configuration list for PBXNativeTarget "uikit-uiscrollview-example" */;
+			buildPhases = (
+				B67B23BC294216A40060351C /* Sources */,
+				B67B23BD294216A40060351C /* Frameworks */,
+				B67B23BE294216A40060351C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "uikit-uiscrollview-example";
+			productName = "uikit-uiscrollview-example";
+			productReference = B67B23C0294216A40060351C /* uikit-uiscrollview-example.app */;
+			productType = "com.apple.product-type.application";
+		};
 		B69D6BC2291E7D38004337A7 /* uikit-alert-example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B69D6BDB291E7D3A004337A7 /* Build configuration list for PBXNativeTarget "uikit-alert-example" */;
@@ -844,6 +907,9 @@
 					B65C52D6290C2273008F5368 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
+					B67B23BF294216A40060351C = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
 					B69D6BC2291E7D38004337A7 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
@@ -886,6 +952,7 @@
 				B6A3FE84291E8A6C00991409 /* uikit-super-guess-example */,
 				B6E2C3C129226F9300F266F1 /* uikit-network-example */,
 				B6DBEF78292290A9002281CD /* uikit-webview-example */,
+				B67B23BF294216A40060351C /* uikit-uiscrollview-example */,
 			);
 		};
 /* End PBXProject section */
@@ -923,6 +990,16 @@
 				B63BD20229179E87005D62F0 /* Assets.xcassets in Resources */,
 				B63BD20029179E85005D62F0 /* Main.storyboard in Resources */,
 				B63BD2132917AAED005D62F0 /* pictures.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B67B23BE294216A40060351C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B67B23D2294216A60060351C /* LaunchScreen.storyboard in Resources */,
+				B67B23CF294216A60060351C /* Assets.xcassets in Resources */,
+				B67B23CD294216A40060351C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1046,6 +1123,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B67B23BC294216A40060351C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B67B23CA294216A40060351C /* ViewController.m in Sources */,
+				B67B23C4294216A40060351C /* AppDelegate.m in Sources */,
+				B67B23D5294216A60060351C /* main.m in Sources */,
+				B67B23C7294216A40060351C /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B69D6BBF291E7D38004337A7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1147,6 +1235,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				B63BD20429179E87005D62F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B67B23CB294216A40060351C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B67B23CC294216A40060351C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B67B23D0294216A60060351C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B67B23D1294216A60060351C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -1599,6 +1703,65 @@
 			};
 			name = Release;
 		};
+		B67B23D6294216A60060351C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S74ZA39WT5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "uikit-uiscrollview-example/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.org.aivstudio.uikit-uiscrollview-example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B67B23D7294216A60060351C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S74ZA39WT5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "uikit-uiscrollview-example/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.org.aivstudio.uikit-uiscrollview-example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		B69D6BD9291E7D3A004337A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1965,6 +2128,15 @@
 			buildConfigurations = (
 				B65C52DB290C2273008F5368 /* Debug */,
 				B65C52DC290C2273008F5368 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B67B23D8294216A60060351C /* Build configuration list for PBXNativeTarget "uikit-uiscrollview-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B67B23D6294216A60060351C /* Debug */,
+				B67B23D7294216A60060351C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
