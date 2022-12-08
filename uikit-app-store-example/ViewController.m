@@ -17,26 +17,6 @@
  * 使用自定义 xib 文件来创建一个应用管理下载的应用页面.
  */
 @implementation ViewController
-- (IBAction)on:(id)sender {
-}
-- (IBAction)on:(id)sender {
-}
-- (IBAction)onClick:(id)sender {
-}
-- (IBAction)on:(id)sender {
-}
-- (IBAction)onButtonClick:(UIButton *)sender {
-}
-- (IBAction)onButtonClick:(UIButton *)sender {
-}
-- (IBAction)onButtonClick:(id)sender {
-}
-- (IBAction)onono:(id)sender {
-}
-- (IBAction)onButtonClick:(UIButton *)sender {
-}
-- (IBAction)onButtonClick:(UIButton *)sender {
-}
 
 /**
  * 重写 getter 方法实现懒加载

@@ -595,7 +595,21 @@ NSArray *views = [[NSBundle mainBundle] loadNibNameed: @"xib文件名称" owner:
 UIView *view = [views firstObject];
 ```
 
-需要在 `xib` 文件中为各个控件设置 `tag` 并使用 `[UIView viewWithTag: number]` 获取子控件对象，
+需要在 `xib` 文件中为各个控件设置 `tag` 并使用 `[UIView viewWithTag: number]` 获取子控件对象，但是推荐使用 `xcode` 拖拽工具进行关联组件对象并进行使用。
+
+xib 文件其实是对UI的描述文件，其内部的原理也是通过 xcode 进行解析并使用代码生成的控件信息。
+
+### UIScrollView的使用
+
+#### 常见属性
+
+#### 滚动缩放
+
+#### 代理方式
+
+#### 分页功能
+
+#### NSTimer
 
 ## Xcode 使用指南
 
